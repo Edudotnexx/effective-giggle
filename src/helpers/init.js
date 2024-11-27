@@ -1,5 +1,5 @@
 import { isValidUUID } from './helpers';
-const defaultProxyIP = 'proxyip-germany.cip.web1337.net	';
+const defaultProxyIP = 'proxyip-germany.cip.web1337.net';
 let userID, dohURL, proxyIP, trojanPassword, defaultHttpPorts, defaultHttpsPorts, panelVersion, hostName, origin, client, pathName;
 
 function initParams(request, env) {
